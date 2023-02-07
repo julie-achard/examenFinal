@@ -32,15 +32,6 @@ class User {
     <a href=${this.email}>
     <span class=${emailClass}>✉️</span>
     </a>`;
-    //J'ajoute mon html a ma div
-  }
-
-  generateUser() {
-    const userName = [];
-  }
-  display(parentElement) {
-    // Ajoute this.element comme enfant d'un élément parent passé en argument.
-    parentElement.appendChild(this.element);
   }
 }
 export default User;
